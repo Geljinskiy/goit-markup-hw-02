@@ -3,15 +3,15 @@
     --primary-brand-color: #2196F3;
     --secondary-brand-color: #2F303A;
 }
-.overtitle {
+body {
     font-family: var(--main-font);
-    font-style: normal;
+}
+.overtitle {
     font-weight: bold;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
 }
 .list {
     list-style: none;
@@ -19,25 +19,19 @@
 .link {
     text-decoration: none;
 }
-.overtitle {
-    color: #212121;
-}
 /* общие настройки */
 .logo {
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--primary-brand-color);
 }
 .nav-list-item {
-    font-family: var(--main-font);
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -46,11 +40,9 @@
     color: var(--primary-brand-color);
 }
 .header-address-item > a {
-    font-family: var(--main-font);
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -63,17 +55,15 @@
     background-color: var(--secondary-brand-color);
 }
 .main-title {
-    font-family: var(--main-font);
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.order-btn {
+button.order-btn {
     color: #FFFFFF;
     background-color: var(--primary-brand-color);
     cursor: pointer;
@@ -87,21 +77,17 @@
     display: none;
 }
 .advantage-title {
-    font-family: var(--main-font);
-    font-style: normal;
     font-size: 14px;
     font-weight: bold;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    
 }
 .advantage-text {
-    font-family: var(--main-font);
-    font-style: normal;
     font-size: 14px;
     font-weight: normal;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -110,20 +96,15 @@
     background-color: #F5F4FA;
 }
 .team-member-name {
-    font-family: var(--main-font);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     letter-spacing: 0.03em;
-    color: #212121;
 }
 .team-member-position {
-    font-family: var(--main-font);
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -131,19 +112,16 @@
 .footer {
     background-color: var(--secondary-brand-color);
 }
-.location,
-.footer-phone-number,
-.footer-email-address {
-    font-family: var(--main-font);
+address {
     font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    font-weight: normal;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+
 }
-.footer-phone-number,
-.footer-email-address {
+.footer-address-item>a {
     color: rgba(255, 255, 255, 0.6);
 }
 /* footer */
@@ -151,14 +129,11 @@
     display: none;
 }
 button.example-btn {
-    font-family: var(--main-font);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
     border-color: #F5F4FA;
     cursor: pointer;
 }
@@ -168,20 +143,15 @@ button.example-btn:focus{
     color: #FFFFFF;
 }
 .example-name {
-    font-family: var(--main-font);
-    font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
 }
 .example-type {
-    font-family: var(--main-font);
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: #757575;
 }
