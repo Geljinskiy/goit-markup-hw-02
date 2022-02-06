@@ -1,0 +1,188 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --primary-brand-color: #2196F3;
+    --secondary-brand-color: #2F303A;
+}
+.overtitle {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.overtitle {
+    color: #212121;
+}
+/* общие настройки */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--primary-brand-color);
+}
+.nav-list-item {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.nav-list-item:hover,
+.nav-list-item:focus {
+    color: var(--primary-brand-color);
+}
+.header-address-item > a {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.header-address-item>a:hover,
+.header-address-item>a:focus {
+    color: var(--primary-brand-color);
+}
+/* header */
+.hero {
+    background-color: var(--secondary-brand-color);
+}
+.main-title {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.order-btn {
+    color: #FFFFFF;
+    background-color: var(--primary-brand-color);
+    cursor: pointer;
+}
+/* hero */
+.order-btn:hover,
+.order-btn:focus {
+    background-color: #188CE8;
+}
+.advantages-title {
+    display: none;
+}
+.advantage-title {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.advantage-text {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* advantages */
+.team {
+    background-color: #F5F4FA;
+}
+.team-member-name {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-member-position {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* team */
+.footer {
+    background-color: var(--secondary-brand-color);
+}
+.location,
+.footer-phone-number,
+.footer-email-address {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer-phone-number,
+.footer-email-address {
+    color: rgba(255, 255, 255, 0.6);
+}
+/* footer */
+.examples-title {
+    display: none;
+}
+button.example-btn {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    border-color: #F5F4FA;
+    cursor: pointer;
+}
+button.example-btn:hover,
+button.example-btn:focus{
+    background-color: var(--primary-brand-color);
+    color: #FFFFFF;
+}
+.example-name {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.example-type {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* examples */
